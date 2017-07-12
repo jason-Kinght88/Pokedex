@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E10D669C1F15F38600B9A68D /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D669B1F15F38600B9A68D /* PokeCell.swift */; };
 		E1260D5D1F1232770002007E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1260D5C1F1232770002007E /* AppDelegate.swift */; };
 		E1260D5F1F1232770002007E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1260D5E1F1232770002007E /* ViewController.swift */; };
 		E1260D621F1232770002007E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1260D601F1232770002007E /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E10D669B1F15F38600B9A68D /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		E1260D591F1232770002007E /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1260D5C1F1232770002007E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1260D5E1F1232770002007E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E10D669A1F15F34300B9A68D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E10D669B1F15F38600B9A68D /* PokeCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		E1260D501F1232770002007E = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		E1260D5B1F1232770002007E /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				E10D669A1F15F34300B9A68D /* View */,
 				E1D9A0421F1236260008D47F /* Model */,
 				E1260D5C1F1232770002007E /* AppDelegate.swift */,
 				E1260D5E1F1232770002007E /* ViewController.swift */,
@@ -152,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10D669C1F15F38600B9A68D /* PokeCell.swift in Sources */,
 				E1260D5F1F1232770002007E /* ViewController.swift in Sources */,
 				E1260D5D1F1232770002007E /* AppDelegate.swift in Sources */,
 				E1D9A0441F1236400008D47F /* Pokemon.swift in Sources */,

@@ -93,7 +93,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             return cell
             
         } else {
+            
             return UICollectionViewCell()
+            
         }
         
     }
